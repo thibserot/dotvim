@@ -33,6 +33,10 @@ au FileType php set omnifunc=phpcomplete#CompletePHP
 let php_sql_query=1
 let php_htmlInStrings=1
 
+set noerrorbells visualbell t_vb=
+if has('autocmd')
+  autocmd GUIEnter * set visualbell t_vb=
+endif
 
 
 "set shiftwidth=4
