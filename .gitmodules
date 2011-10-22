@@ -4,3 +4,6 @@
 [submodule "bundle/tabular"]
 	path = bundle/tabular
 	url = https://github.com/godlygeek/tabular.git
+[submodule "bundle/phpcomplete"]
+	path = bundle/phpcomplete
+	url = https://github.com/shawncplus/phpcomplete.vim.git
