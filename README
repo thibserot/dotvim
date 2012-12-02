@@ -4,5 +4,8 @@ Installation:
     git submodule init
     git submodule update
 
+To add a new bundle :
+    git submodule add url bundle/name
+
 Create symlinks:
     ln -s ~/.vim/vimrc ~/.vimrc
