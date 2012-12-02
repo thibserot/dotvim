@@ -8,6 +8,8 @@ set ts=4 sts=4 sw=4 expandtab
 syntax on
 map <F7> :source ~/.vimrc<CR>
 
+"au BufRead,BufNewFile *.twig setfiletype php
+
 let mapleader = ','
 if exists(":Tabularize")
   nmap <leader>a= :Tabularize /=<CR>
@@ -38,6 +40,7 @@ if has('autocmd')
   autocmd GUIEnter * set visualbell t_vb=
 endif
 
+set incsearch
 
 "set shiftwidth=4
 "set tabstop=4
@@ -46,7 +49,6 @@ endif
 "set autoindent
 "set smartcase
 "set smartindent
-"set incsearch
 "set laststatus=2
 "set statusline=%<%f\ %h%m%r[%{(&fenc==\"\"?&enc.\"\*\":&fenc)}]%=\ %-(%l,\ %c%V%)\ \ \ \ \ %P
 "set ignorecase
